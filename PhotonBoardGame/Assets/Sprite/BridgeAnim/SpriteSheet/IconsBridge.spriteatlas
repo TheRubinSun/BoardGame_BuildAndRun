@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: IconsBridge
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 1401008665, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 1160795990, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 2128801819, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: -1897690946, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: -1471360599, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 45039225, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: -196441864, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: -1248769456, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: -1917211407, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: -527364829, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: -1501252381, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 1107609221, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: -496929946, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 53758962, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 774290458, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: -1637138277, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 1364155881, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: -914703395, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: -1123249795, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 445738975, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 811155798, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 2036201017, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 753291690, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 1212555251, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 2050982595, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: -1188284991, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 951136913, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 471085930, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 439052126, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: -1754522690, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    - {fileID: 773343019, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -196441864, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: -1248769456, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: -1471360599, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 45039225, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: -1917211407, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: -527364829, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 811155798, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 2036201017, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 753291690, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 1212555251, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 2050982595, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: -1188284991, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 951136913, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 773343019, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 471085930, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 439052126, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: -1754522690, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 445738975, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: -1123249795, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 1107609221, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: -1501252381, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 53758962, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: -496929946, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: -1637138277, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 774290458, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: -914703395, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 1364155881, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 2128801819, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: -1897690946, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 1401008665, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  - {fileID: 1160795990, guid: 7d10d3b6d262ffc458809be1f4fb5bb3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Bridge_spSheet_6
+  - Bridge_spSheet_7
+  - Bridge_spSheet_4
+  - Bridge_spSheet_5
+  - Bridge_spSheet_8
+  - Bridge_spSheet_9
+  - Bridge_spSheet_20
+  - Bridge_spSheet_21
+  - Bridge_spSheet_22
+  - Bridge_spSheet_23
+  - Bridge_spSheet_24
+  - Bridge_spSheet_25
+  - Bridge_spSheet_26
+  - Bridge_spSheet_30
+  - Bridge_spSheet_27
+  - Bridge_spSheet_28
+  - Bridge_spSheet_29
+  - Bridge_spSheet_19
+  - Bridge_spSheet_18
+  - Bridge_spSheet_11
+  - Bridge_spSheet_10
+  - Bridge_spSheet_13
+  - Bridge_spSheet_12
+  - Bridge_spSheet_15
+  - Bridge_spSheet_14
+  - Bridge_spSheet_17
+  - Bridge_spSheet_16
+  - Bridge_spSheet_2
+  - Bridge_spSheet_3
+  - Bridge_spSheet_0
+  - Bridge_spSheet_1
+  m_RenderDataMap: {}
+  m_Tag: IconsBridge
+  m_IsVariant: 0

@@ -49,7 +49,6 @@ public class RoomList : MonoBehaviourPunCallbacks
         {
             Destroy(entry.gameObject);
         }
-
         roomListEntries.Clear();
     }
     //Обновление списка 
@@ -71,7 +70,6 @@ public class RoomList : MonoBehaviourPunCallbacks
         foreach (RoomInfo info in cachedRoomList.Values)
         {
             Debug.Log("Найдена комната: "+ info.Name);
-
             GameObject Room = Instantiate(RoomPrefab, Vector3.zero, Quaternion.identity, parentRoom);
             Room.GetComponent<Room>().Name.text = info.Name;
             if(info.PlayerCount == info.MaxPlayers)

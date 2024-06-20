@@ -31,7 +31,7 @@ public class LobbyManage : MonoBehaviourPunCallbacks
         createServerWindow.maxCountPlayer.captionText.text = "4";
         windowCreateRoom.SetActive(false);
     }
-    //Создание сервера
+    //Создание комнаты
     public void CreateRoom()
     {
         string nameServer;
@@ -50,12 +50,6 @@ public class LobbyManage : MonoBehaviourPunCallbacks
         {
             Debug.LogWarning("Room name is not unique. Choose a different name.");
         }
-
-        //int maxCountPlayer = System.Int32.Parse(createServerWindow.maxCountPlayer.captionText.text);
-        //bool isVisible = createServerWindow.isVisible.isOn;
-        //bool isOpen = createServerWindow.isOpen.isOn;
-        //PhotonNetwork.CreateRoom(nameServer, new Photon.Realtime.RoomOptions { MaxPlayers = (byte)maxCountPlayer, IsVisible = isVisible, IsOpen = isOpen }, TypedLobby.Default, null);
-        //CloseWindowCreateServer();
     }
     private bool IsRoomNameUnique(string roomName)
     {

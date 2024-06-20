@@ -95,11 +95,9 @@ public class PlayerControl : MonoBehaviour, IPunObservable
     }
     public GameObject AssignInterface(GameObject interfacePl)
     {
-        // Назначьте интерфейс игроку
         GameObject interfaceInstance = Instantiate(interfacePl, Vector3.zero, Quaternion.identity);
         interfaceInstance.transform.SetParent(transform);  // Привязать интерфейс к игроку
         return interfaceInstance;
-        // Добавьте любые другие настройки, специфичные для игрока, при необходимости
     }
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
@@ -197,7 +195,6 @@ public class PlayerControl : MonoBehaviour, IPunObservable
         }
     }
     ///////////////////////////...Настройка параметров...///////////////////////////////////
-
     public void SetReady(bool ready)
     {
         readyStart = ready;

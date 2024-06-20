@@ -255,10 +255,6 @@ public class MapControl : MonoBehaviour
             {
                 if (namePointB.ToString().Contains("Bridge"))
                 {
-
-                    // Регулярное выражение
-                    
-                    
                     // Используем Regex.Match для поиска совпадения
                     Match match = Regex.Match(namePointB.ToString(), pattern.ToString());
                     // Печать найденных чисел
@@ -271,8 +267,6 @@ public class MapControl : MonoBehaviour
                         playerCon.onNumbBridge = bridgeNumber;
 
                         player.transform.position = new Vector3(currentPoint.transform.position.x, currentPoint.transform.position.y, 0);
-
-
 
                         //Добавить игрока в новою точку
                         RemoveOrAddPlayersInPoint(player.GetComponent<PhotonView>().ViewID, bridgeNumber, pointNumber, true);

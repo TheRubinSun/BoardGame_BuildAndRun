@@ -566,19 +566,6 @@ public class GameManager : MonoBehaviourPunCallbacks
         point.OffsetMovePlayers();
 
     }
-    //public void UpdateLazer()
-    //{
-    //    photonView.RPC("RPC_UpdateLazer", RpcTarget.All);
-    //}
-    //[PunRPC]
-    //private void RPC_UpdateLazer()
-    //{
-    //    foreach(GameObject player in players)
-    //    {
-    //        player.GetComponent<PlayerControl>().DrawLineToPoint();
-    //    }
-
-    //}
 
     //////////////////////////////////////////////////////////////////////////////////////////
     /////////////////////Пошаговая система///////////////////////////////////////////////////
@@ -617,9 +604,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     }
     private void StartNextTurn()
     {
-        //StartPlayerTurn();
         // Дополнительные действия при начале хода, если необходимо
-        //на конкретном игроке
         players[currentPlayerIndex].GetComponent<PlayerControl>().prefabRing.SetActive(true);
         if (PhotonNetwork.PlayerList[currentPlayerIndex].IsLocal)
         {
@@ -676,7 +661,6 @@ public class GameManager : MonoBehaviourPunCallbacks
     [PunRPC]
     private void RPC_PlayerReadyStateChanged(string playerName, bool isReady)
     {
-        //readyPlayers.Add(playerName, isReady);
         readyPlayers[playerName] = isReady;
         foreach (KeyValuePair<string, bool> name in readyPlayers)
         {
@@ -684,7 +668,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         }
         if (CheckReadyPlayers())
         {
-            Debug.Log("Стартуем ");
+            Debug.Log("Начинаем...");
             Invoke("StartGame", 1f);
         }
         else
